@@ -18,6 +18,7 @@ transformers==4.36.0
 
 # LLM inference
 requests==2.31.0
+huggingface-hub>=0.20.0
 
 # Environment
 python-dotenv==1.0.0

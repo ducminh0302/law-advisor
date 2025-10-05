@@ -1,17 +1,43 @@
-# 🕷️ VN-Law-Mini Crawler
+# 🕷️ VN-Law-Mini Crawler & Data Pipeline
 
-Crawler đơn giản để thu thập văn bản pháp luật Việt Nam từ [vbpl.vn](https://vbpl.vn).
-
-> ⚠️ **LƯU Ý QUAN TRỌNG**: Crawler hiện tại **KHÔNG THỂ** lấy được nội dung đầy đủ từ vbpl.vn do nội dung được nhúng trong PDF. Xem [CRAWLER-NOTES.md](./CRAWLER-NOTES.md) để biết chi tiết.
+Tools để import và xử lý văn bản pháp luật Việt Nam.
 
 ---
 
-## 📋 Files hiện có
+## 🎯 Chức năng chính
 
--   **`crawler.py`** - Crawler cũ với BeautifulSoup (tham khảo)
--   **`export_to_supabase.py`** - Export dữ liệu JSON → Supabase ✅ HOẠT ĐỘNG
--   **`CRAWLER-NOTES.md`** - Ghi chú chi tiết về vấn đề và giải pháp
--   **`.env`** - Config credentials (SUPABASE_SERVICE_KEY)
+### ✅ Import Documents to Pinecone (MỚI - Đang sử dụng)
+- Import văn bản từ Supabase vào Pinecone vector database
+- Tạo embeddings với model multilingual
+- Hỗ trợ RAG (Retrieval-Augmented Generation)
+- **Kết quả:** 857 text chunks từ 87 văn bản
+- **Xem:** [QUICK_START.md](./QUICK_START.md)
+
+### ✅ Import to Supabase (Đang hoạt động)
+- Import văn bản từ files .txt vào Supabase
+- Tự động parse metadata (loại văn bản, số hiệu, ngày ban hành)
+- Script: `import_manual_documents.py`
+
+### ⚠️ Web Crawler (Tạm dừng)
+- Crawler từ vbpl.vn gặp khó khăn do PDF embedding
+- Xem [CRAWLER-NOTES.md](./CRAWLER-NOTES.md) để biết chi tiết
+
+---
+
+## 📋 Files quan trọng
+
+**Production Scripts:**
+-   **`import_to_pinecone.py`** - Import documents vào Pinecone ✅ MAIN
+-   **`import_manual_documents.py`** - Import .txt files vào Supabase ✅
+-   **`QUICK_START.md`** - Hướng dẫn sử dụng ✅
+
+**Legacy/Reference:**
+-   **`export_to_supabase.py`** - Export JSON → Supabase
+-   **`crawler.py`** - Web crawler cũ (tham khảo)
+-   **`CRAWLER-NOTES.md`** - Ghi chú về web crawler issues
+
+**Config:**
+-   **`.env`** - Credentials (Supabase, Pinecone)
 
 ---
 
@@ -19,24 +45,78 @@ Crawler đơn giản để thu thập văn bản pháp luật Việt Nam từ [v
 
 ### 1. Cài đặt dependencies
 
+## 🔧 Setup
+
+### 1. Cài đặt dependencies
+
 ```bash
-cd crawler
+cd backend/rag-service
 pip install -r requirements.txt
 ```
 
 ### 2. Cấu hình environment
 
-Tạo file `.env`:
+File `.env` trong `backend/rag-service/`:
 
 ```bash
-# Supabase credentials
+# Supabase
 SUPABASE_URL=https://xxxxx.supabase.co
-SUPABASE_SERVICE_KEY=eyJxxx...  # Service key có quyền write
+SUPABASE_ANON_KEY=eyJxxx...
+
+# Pinecone
+PINECONE_API_KEY=pcsk_xxxxx
+PINECONE_INDEX_NAME=vn-law-embeddings
+
+# Embedding Model
+EMBEDDING_MODEL=sentence-transformers/paraphrase-multilingual-mpnet-base-v2
 ```
 
 ---
 
-## 🚀 Sử dụng Export Script
+## 🚀 Quick Start - Import to Pinecone
+
+### Bước 1: Đảm bảo có documents trong Supabase
+
+```bash
+# Check Supabase dashboard
+# Table: documents
+# Cần có: id, ten, noi_dung, mapc
+```
+
+### Bước 2: Chạy import script
+
+```bash
+python crawler/import_to_pinecone.py
+```
+
+### Bước 3: Khởi động RAG service
+
+```bash
+cd backend/rag-service
+python app.py
+```
+
+### Bước 4: Test search
+
+```bash
+curl "http://localhost:8001/api/search?query=thanh+niên"
+```
+
+**Xem hướng dẫn chi tiết:** [QUICK_START.md](./QUICK_START.md)
+
+---
+
+## 📊 Kết quả
+
+**✅ Thành công:**
+- 857 text chunks được tạo từ 87 documents
+- Embeddings với multilingual model (dimension: 768)
+- Vector search hoạt động tốt (cosine similarity)
+- RAG service sẵn sàng
+
+---
+
+## 🚀 Sử dụng Export Script (Legacy)
 
 Script `export_to_supabase.py` hoạt động tốt để import data từ JSON vào Supabase.
 

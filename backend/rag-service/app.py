@@ -162,19 +162,15 @@ Trả lời ngắn gọn, chính xác dựa trên nội dung văn bản trên.""
         max_length = int(os.getenv('RAG_MAX_LENGTH', 512))
         temperature = float(os.getenv('RAG_TEMPERATURE', 0.7))
 
-        try:
-            answer = llm_client.generate(
-                prompt,
-                max_length=max_length,
-                temperature=temperature
-            )
-        except Exception as llm_error:
-            print(f"LLM generation failed: {llm_error}")
-            # Fallback: return summary of context
-            answer = f"Dựa trên các điều luật liên quan:\n\n{search_results[0]['noi_dung'][:300]}...\n\n[Lưu ý: Hệ thống đang tạm thời sử dụng chế độ trích xuất trực tiếp do dịch vụ LLM chưa sẵn sàng]"
+        # Call LLM to generate answer
+        answer = llm_client.generate(
+            prompt,
+            max_length=max_length,
+            temperature=temperature
+        )
 
-        if not answer:
-            answer = "Xin lỗi, tôi không thể tạo câu trả lời lúc này. Vui lòng xem các điều luật liên quan bên dưới."
+        if not answer or len(answer.strip()) == 0:
+            raise Exception("LLM returned empty response")
 
         print(f"Answer generated: {answer[:100]}...")
 
@@ -211,4 +207,4 @@ if __name__ == '__main__':
     print(f"\nStarting RAG Service on port {port}...")
     print(f"Access at: http://localhost:{port}")
     print("")
-    app.run(host='0.0.0.0', port=port, debug=True)
+    app.run(host='0.0.0.0', port=port, debug=False)

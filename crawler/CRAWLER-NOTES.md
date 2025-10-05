@@ -1,6 +1,30 @@
 # 📝 Ghi chú về Crawler - VN-Law-Mini
 
-## ⚠️ Vấn đề chính
+## 🎉 CẬP NHẬT MỚI: Import to Pinecone Vector Database
+
+### ✅ Đã hoàn thành (06/10/2025)
+
+**Kết quả:**
+- ✅ **857 text chunks** được tạo từ 87 documents
+- ✅ **Embeddings** với model `paraphrase-multilingual-mpnet-base-v2`
+- ✅ **Vector search** hoạt động tốt trên Pinecone
+- ✅ **RAG service** sẵn sàng phục vụ queries
+
+**Flow:**
+1. Documents từ Supabase (table `documents`)
+2. Split thành chunks (~1500 chars each)
+3. Create embeddings (768 dimensions)
+4. Upload to Pinecone index: `vn-law-embeddings`
+
+**Scripts:**
+- `crawler/import_to_pinecone.py` - Import và vectorize documents
+- `backend/rag-service/app.py` - RAG service với vector search
+
+**Xem chi tiết:** [QUICK_START.md](./QUICK_START.md)
+
+---
+
+## ⚠️ Vấn đề chính với Web Crawler
 
 ### 1. Website vbpl.vn đã thay đổi cấu trúc
 

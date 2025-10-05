@@ -1,0 +1,78 @@
+DANH SÁCH THÍ SINH THAM GIA VÒNG CHUNG KẾT
+
+HỘI THI BÍ THƯ ĐOÀN CƠ SỞ GIỎI TOÀN QUỐC LẦN THỨ I, NĂM 2023
+
+| STT | Đơn vị | Họ và tên thí sinh | Chức vụ, đơn vị công tác |
+|  |  |  |  |
+| 1 | Điện Biên | Nguyễn Anh Sơn | Bí thư Đoàn xã Thanh Luông, huyện Điện Biên, tỉnh Điện Biên |
+| 2 | Lai Châu | Bùi Thị Hồng Khánh | Bí thư Đoàn xã Bình Lư, huyện Tam Đường, tỉnh Lai Châu |
+| 3 | Sơn La | Tòng Thị Hòa | Bí thư Đoàn xã Mường Và, huyện Sốp Cộp, tỉnh Sơn La |
+| 4 | Hòa Bình | Nguyễn Thị Mai Linh | Bí thư Đoàn phường Thái Bình, thành phố Hòa Bình, tỉnh Hòa Bình |
+| 5 | Yên Bái | Hoàng Tuấn Linh | Bí Thư đoàn Sở Y tế tỉnh Yên Bái |
+| 6 | Lào Cai | Vũ Thị Minh Thuỳ | Bí thư Đoàn xã Tân Thượng, huyện Văn Bàn, tỉnh Lào Cai |
+| 7 | Hà Giang | Đặng Thị Hương | Bí thư Đoàn xã Thanh Thuỷ, huyện Vị Xuyên, tỉnh Hà Giang |
+| 8 | Tuyên Quang | Trần Hoài Nam | Bí thư Đoàn xã Thái Long, thành phố Tuyên Quang |
+| 9 | Bắc Kạn | Bế Thị Châm | Bí thư Đoàn thị trấn Vân Tùng, huyện Ngân Sơn, tỉnh Bắc Kạn |
+| 10 | Lạng Sơn | Ngô Đình Vinh | Bí thư Đoàn cơ sở Sở Lao động Thương binh và xã hội tỉnh Lạng Sơn, Đoàn Khối CCQ tỉnh |
+| 11 | Cao Bằng | Lý Thị Mừng | Bí thư Đoàn thị trấn Tà Lùng, huyện Quảng Hòa, tỉnh Cao Bằng |
+| 12 | Thái Nguyên | Đoàn Đình Khánh | Bí thư đoàn phường túc duyên, thành phố thái nguyên |
+| 13 | Bắc Giang | Trần Kim Anh | Bí thư Đoàn xã Đồng Sơn, thành phố Bắc Giang, tỉnh Bắc Giang |
+| 14 | Bắc Ninh | Nguyễn Quốc Mạnh | Bí thư Đoàn phường Tiền An, thành phố Bắc Ninh, tỉnh Bắc Ninh |
+| 15 | Vĩnh Phúc | Hoàng Lan Anh | Bí thư Đoàn xã Nguyệt Đức, huyện Yên Lạc, tỉnh Vĩnh Phúc |
+| 16 | Phú Thọ | Lê Hùng Anh | Bí thư Đoàn xã Ca Đình, huyện Đoan Hùng, tỉnh Phú Thọ |
+| 17 | Quảng Ninh | Đỗ Thái Sơn | Bí thư Đoàn phường Phương Nam, thành phố Uông Bí, tỉnh Quảng Ninh |
+| 18 | Hà Nam | Lại Thị Cẩm Vân | Bí thư Đoàn TNCS Hồ Chí Minh phường Hai Bà Trưng, thành phố Phủ Lý, tỉnh Hà Nam. |
+| 19 | Hà Nội | Đoàn Hùng Anh | Bí thư Đoàn trường Hữu Nghị T78, huyện Phúc Thọ |
+| 20 | Hà Nội | Nguyễn Minh Anh | Bí thư Đoàn phường Quảng An, quận Tây Hồ, thành phố Hà Nội |
+| 21 | Hải Dương | Đỗ Minh Nam | Bí thư Đoàn xã Gia Khánh, huyện Gia Lộc, tỉnh Hải Dương |
+| 22 | Hải Phòng | Vũ Thị Hải Ngọc | Bí thư Đoàn phường Hàng Kênh, quận Lê Chân, thành phố Hải Phòng |
+| 23 | Hưng Yên | Lều Thị Minh Trang | Bí thư Đoàn xã Liên Phương, thành phố Hưng Yên, tỉnh Hưng Yên |
+| 24 | Nam Định | Phạm Thị Dịu | Bí thư đoàn xã Nghĩa Thịnh, huyện Nghĩa Hưng, Tỉnh Nam Định |
+| 25 | Ninh Bình | Đàm Văn Nghị | Bí Thư đoàn xã Sơn Hà, huyện Nho Quan, tỉnh Ninh Bình |
+| 26 | Thái Bình | Nguyễn Phú Tuấn Anh | Bí thư Đoàn thị trấn Quỳnh Côi, Huyện Quỳnh Phụ, Tỉnh Thái Bình |
+| 27 | Thanh Hóa | Hà Văn Tuyên | Bí thư Đoàn xã Xuân Chinh, huyện Thường Xuân, tỉnh Thanh Hóa |
+| 28 | Thanh Hóa | Hồ Thị Sâm | Bí thư Đoàn xã Nga Thái, huyện Nga Sơn, tỉnh Thanh Hóa |
+| 29 | Nghệ An | Nguyễn Đắc Tuấn | Bí thư Đoàn phường Nghi Thủy, thị xã Cửa Lò, tỉnh Nghệ An |
+| 30 | Nghệ An | Dương Thị Giang | Bí thư Đoàn thị trấn Con Cuông, huyện Con Cuông, tỉnh Nghệ An |
+| 31 | Hà Tĩnh | Trương Thị Nhật Anh | Bí thư Đoàn Trường THPT Chuyên Hà Tĩnh, Đoàn Khối các cơ quan và doanh nghiệp tỉnh, tỉnh Hà Tĩnh |
+| 32 | Quảng Bình | Hoàng Thị Nhân Ái | Bí thư Đoàn xã Bảo Ninh, Thành phố Đồng Hới, tỉnh Quảng Bình |
+| 33 | Quảng Trị | Lê Trung Nhân | Bí thư Đoàn xã Tân Hợp, huyện Hướng Hoá, tỉnh Quảng Trị |
+| 34 | Thừa Thiên Huế | Lê Thị Huyền | Bí thư Đoàn phường Hương Hồ, Thành phố Huế, tỉnh Thừa Thiên Huế |
+| 35 | Đà Nẵng | Phạm Trần Trúc Mai | Bí thư Đoàn phường Hòa Hiệp Nam, quận Liên Chiểu, thành phố Đà Nẵng |
+| 36 | Quảng Nam | Mai Thị Lệ Huyền | Bí thư Đoàn Trường THPT chuyên Nguyễn Bỉnh Khiêm, TP. Tam Kỳ, Tỉnh Quảng Nam |
+| 37 | Quảng Ngãi | Nguyễn Thị Hồng Diễm | Bí thư Đoàn Phường Quảng Phú, Thành phố Quảng Ngãi, tỉnh Quảng Ngãi |
+| 38 | Bình Định | Nguyễn Tiến Hòa | Bí thư Đoàn xã Mỹ Trinh, huyện Phù Mỹ, tỉnh Bình Định |
+| 39 | Phú Yên | Huỳnh Quốc Toàn | Bí thư Đoàn phường Phú Đông, Thành phố Tuy Hòa, tỉnh Phú Yên |
+| 40 | Khánh Hoà | Hoàng Trọng Nghĩa | Bí thư Đoàn xã Cam Hoà, huyện Cam Lâm, tỉnh Khánh Hoà |
+| 41 | Ninh Thuận | Hà Thị Hồng Loan | Bí thư Đoàn xã Bắc Phong, Huyện Thuận Bắc, Tỉnh đoàn Ninh Thuận |
+| 42 | Gia Lai | Phan Thị Bích Thuỷ | Bí thư Đoàn trường THPT Hoàng Hoa Thám, Tp Pleiku, tỉnh Gia Lai |
+| 43 | Kon Tum | Nguyễn Thị Huệ | Bí thư Đoàn thị trấn Plei Kần, huyện Ngọc Hồi, tỉnh Kon Tum |
+| 44 | Đắk Lắk | Đàm Hùng Quân | Bí thư Đoàn Công an Thành phố Buôn Ma Thuột, tỉnh Đắk Lắk |
+| 45 | Lâm Đồng | Phan Anh Kim | Bí thư Đoàn Phòng PC07, Công an tỉnh Lâm Đồng |
+| 46 | Đắk Nông | Phùng Cao Sang | Bí thư Đoàn cơ sở Công an Huyện Đắk Mil, tỉnh Đắk Nông |
+| 47 | Bình Phước | Dư Thị Thanh Xuân | Bí thư Đoàn trường THPT Thị xã Bình Long, Thị trấn An Lộc, tỉnh Bình Phước |
+| 48 | Bà Rịa  Vũng Tàu | Kiểu Thị Thanh Hoà | Bí thư Đoàn xã Bông Trang, huyện Xuyên Mộc, tỉnh BRVT |
+| 49 | Bình Dương | Lý Ngọc Minh | Bí thư Đoàn phường Hiệp Thành, tp Thủ Dầu Một, tỉnh Bình Dương |
+| 50 | Bình Thuận | Hồ Viết Dũng | Bí thư đoàn cơ sở xã Đa Mi, huyện Hàm Thuận Bắc, Tỉnh Bình Thuận |
+| 51 | Tây Ninh | Hồ Tường Vy | Bí thư Đoàn xã Phan, huyện Dương Minh Châu, tỉnh Tây Ninh |
+| 52 | Đồng Nai | Nguyễn Võ Ngọc Hòa | Bí thư Đoàn xã Thạnh Phú, huyện Vĩnh Cửu, tỉnh Đồng Nai |
+| 53 | TP Hồ Chí Minh | Nguyễn Hoàng Đan Khanh | Bí thư Đoàn phường 15, quận Bình Thạnh, Thành phố Hồ Chí Minh |
+| 54 | TP Hồ Chí Minh | Nguyễn Khắc Quốc Huy | Bí thư Đoàn Phường 8, Quận 10, Thành phố Hồ Chí Minh |
+| 55 | Bến Tre | Lữ Anh Đào | Bí thư Đoàn xã Phú Hưng, thành phố Bến Tre, tỉnh Bến Tre |
+| 56 | Trà Vinh | Lê Thanh Bách | Bí thư Đoàn Trường THPT Nguyễn Đáng, Huyện đoàn Càng Long |
+| 57 | Tiền Giang | Nguyễn Kim Huy Bằng | Bí thư Đoàn cơ sở Phường 5, thành phố Mỹ Tho, tỉnh Tiền Giang |
+| 58 | Đồng Tháp | Lê Nguyễn Huỳnh Anh | Bí thư Đoàn xã Bình Thành, huyện Lấp Vò, tỉnh Đồng Tháp |
+| 59 | Vĩnh Long | Thái Hồng Cúc | Bí thư Đoàn cơ sở Tân An Thạnh, huyện Bình Tân, tỉnh Vĩnh Long |
+| 60 | Long An | Nguyễn Thị Như Ngọc | Bí thư Đoàn Văn phòng UBND tỉnh Long An |
+| 61 | Bạc Liêu | Nguyễn Hải Âu | Bí thư Đoàn xã Điền Hải, huyện Đông Hải, tỉnh Bạc Liêu |
+| 62 | Cà Mau | Nguyễn Văn Khỏe | Bí thư Đoàn Phường 2, thành phố Cà Mau, tỉnh Cà Mau |
+| 63 | Sóc Trăng | Đặng Thị Ngọc Xứng | Bí thư Đoàn cơ sở thị trấn Phú Lộc, huyện Thạnh Trị, tỉnh Sóc Trăng |
+| 64 | Cần Thơ | Đặng Tấn Dai | Bí thư Đoàn xã Xuân Thắng, huyện Thới Lai, Thành phố Cần Thơ. |
+| 65 | Hậu Giang | Nguyễn Trường Thịnh | Bí thư Đoàn thị trấn Mái Dầm, huyện Châu Thành, tỉnh Hậu Giang |
+| 66 | An Giang | Lý Thị Minh Trang | Bí thư Đoàn Khoa Ngoại ngữ, Đoàn Trường Đại học An Giang  ĐHQGHCM, Tỉnh An Giang |
+| 67 | Kiên Giang | Phùng Thị Thuỳ Trang | Bí thư Xã đoàn Vĩnh Điều, huyện Giang Thành, tỉnh Kiên Giang |
+| 68 | Ban Thanh niên Quân đội | Phạm Kiên Trung | Bí thư Đoàn Tiểu đoàn 11, Trường Sĩ quan Chính trị, Ban Thanh niên Quân đội |
+| 69 | Ban Thanh niên Quân đội | Nguyễn Sỹ Tuân | Bí thư Đoàn Tiểu đoàn 97, Bộ Tham mưu, Quân khu 4 |
+| 70 | Đoàn Thanh niên Bộ Công an | Phan Hữu Minh | Bí thư Đoàn Cục Kỹ thuật nghiệp vụ, Đoàn Thanh niên Bộ Công an |
+| 71 | Đoàn Khối các cơ quan Trung ương | Trần Sỹ Dương | Bí thư Đoàn Trường Đại học Kiểm sát Hà Nội, thuộc Đoàn Viện Kiểm sát Nhân dân Tối cao, Đoàn Khối các cơ quan Trung ương |
+| 72 | Đoàn Khối Doanh nghiệp Trung ương | Trần Thị Thúy Hằng | Bí thư Đoàn Trung tâm Thẩm định và Phê duyệt, Đoàn Ngân hàng BIDV, Đoàn Khối DNTW |

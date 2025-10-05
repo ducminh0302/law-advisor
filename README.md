@@ -46,7 +46,17 @@ VN Law Advisor Mini is a simplified legal advisory system that helps users searc
 
 ##  Quick Start
 
-### Prerequisites
+### 🚀 Deploy to Production (5 minutes)
+
+**Want to deploy immediately?** 
+
+📘 Read: [`QUICK-DEPLOY.md`](./QUICK-DEPLOY.md) - 3-step deployment guide
+📋 Checklist: [`DEPLOYMENT-CHECKLIST.md`](./DEPLOYMENT-CHECKLIST.md) - Full deployment checklist
+📖 Detailed Guide: [`DEPLOYMENT.md`](./DEPLOYMENT.md) - Complete deployment documentation
+
+### 💻 Local Development
+
+#### Prerequisites
 
 - Node.js 18+
 - Python 3.8+
