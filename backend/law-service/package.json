@@ -1,0 +1,29 @@
+{
+    "name": "vn-law-service",
+    "version": "1.0.0",
+    "description": "API service for Vietnamese legal documents - VN-Law-Mini",
+    "main": "src/index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "node --watch src/index.js",
+        "test": "echo \"No tests yet\" && exit 0"
+    },
+    "keywords": [
+        "law",
+        "legal",
+        "vietnam",
+        "api"
+    ],
+    "author": "VN-Law-Mini",
+    "license": "GPL-3.0",
+    "dependencies": {
+        "@supabase/supabase-js": "^2.39.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}

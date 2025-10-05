@@ -1,0 +1,26 @@
+# VN-Law-Mini RAG Service Dependencies
+# Python 3.8+
+
+# Web framework
+flask==3.0.0
+flask-cors==4.0.0
+
+# Supabase
+supabase==2.3.0
+
+# Vector DB (choose one)
+pinecone-client==3.0.0
+# chromadb==0.4.22
+
+# Embeddings & NLP
+sentence-transformers>=2.7.0
+transformers==4.36.0
+
+# LLM inference
+requests==2.31.0
+
+# Environment
+python-dotenv==1.0.0
+
+# Utils
+numpy>=1.26.0
