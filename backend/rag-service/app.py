@@ -151,13 +151,20 @@ def ask_question():
         print("Generating answer with LLM...")
 
         # Build prompt
-        prompt = f"""Dựa vào văn bản pháp luật sau đây:
+        prompt = f"""Bạn là trợ lý tư vấn pháp luật Việt Nam. Dựa vào các văn bản pháp luật sau đây:
 
 {context}
 
 Hãy trả lời câu hỏi: {question}
 
-Trả lời ngắn gọn, chính xác dựa trên nội dung văn bản trên."""
+Yêu cầu:
+- Trả lời DỰA TRÊN nội dung văn bản được cung cấp
+- Nếu văn bản có thông tin liên quan, hãy TÓM TẮT và GIẢI THÍCH rõ ràng
+- Nếu văn bản KHÔNG có thông tin cụ thể được hỏi nhưng có thông tin liên quan, hãy nêu rõ thông tin có được
+- Trả lời bằng tiếng Việt, ngắn gọn (2-3 câu) nhưng đầy đủ ý
+- Nếu văn bản hoàn toàn không liên quan, hãy nói "Văn bản không đề cập đến vấn đề này"
+
+Trả lời:"""
 
         max_length = int(os.getenv('RAG_MAX_LENGTH', 512))
         temperature = float(os.getenv('RAG_TEMPERATURE', 0.7))
